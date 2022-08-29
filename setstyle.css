@@ -1,0 +1,78 @@
+.cls0,.cls1, .cls2, .cls3, .cls4, .cls5, .cls6, .cls7{
+    display: flex;
+    justify-content: center;
+}
+.cls0{
+    font-size: 80px;
+}
+.cls1{
+    margin-top: 50px;
+}
+.input{
+    width: 250px;
+    padding: 20px;
+    margin-right: 50px;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+.button{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: black;
+    color: white; 
+
+}
+.cls2{
+    margin-top:30px;
+    font-size: 70px;
+    color: gray;
+    margin-right: 10px;
+}
+.cls3{
+    margin-top: 20px;
+    color: gray;
+    font-size: 35px;
+    margin-right: 20px;
+}
+.condition{
+    margin-left: 20px;
+}
+.cls4{
+    font-size: 35px;
+    margin-top: 10px;
+    color: gray;
+}
+.cls5{
+    font-size: 35px;
+    margin-top: 10px;
+    color: gray;
+}
+.cls6{
+    font-size: 35px;
+    margin-top: 10px;
+    color: gray;
+}
+.cls7{
+    font-size: 35px;
+    margin-top: 10px;
+    color: gray;
+}
+@media screen and (min-width: 320px) {
+    .cls0 {
+font-size: 40px;
+    }
+    .input{
+        width: 150px;
+    }
+  }
+  @media screen and (min-width: 425px) {
+    .cls0 {
+font-size: 60px;
+    }
+    .input{
+        width: 250px;
+    }
+  }
+  
